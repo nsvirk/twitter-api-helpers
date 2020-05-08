@@ -1,0 +1,35 @@
+{
+  "name": "twitter-api-helpers",
+  "version": "0.0.1",
+  "description": "Helper files to work with Twitter API endpoints",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsvirk/twitter-api-helpers.git"
+  },
+  "keywords": [
+    "twitter",
+    "app",
+    "bot",
+    "followers",
+    "trends",
+    "statuses",
+    "search",
+    "twitter bot"
+  ],
+  "author": "@nsvirk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsvirk/twitter-api-helper/issues"
+  },
+  "homepage": "https://github.com/nsvirk/twitter-api-helper#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment": "^2.25.3",
+    "twit": "^2.2.11"
+  }
+}
